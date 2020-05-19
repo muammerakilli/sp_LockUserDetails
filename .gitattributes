@@ -56,12 +56,6 @@
 # T-SQL files
 *.sql 	eol=crlf merge=union
 
-# prevent unwanted files from bloating the zip distribution package
-BlitzBuilder/ export-ignore
-sp_AskBrent/ export-ignore
-sp_Blitz/ export-ignore
-sp_BlitzIndex/ export-ignore
-
 # linguist overrides
 *.sql linguist-language=TSQL
 *.R linguist-language=R
